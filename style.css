@@ -1,0 +1,110 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.main{
+    border: none;
+    font-family: 'Karla', sans-serif;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+}
+
+.titulo{
+    color: hsl(179, 62%, 43%);
+
+    font-weight: 700;
+}
+.contenedorMain{
+    border: 1px solid black;
+}
+
+.contenedorPricing , .contenedorAbout,.contenedorBoth {
+    margin: 20px ;
+    border: none;
+}
+
+/*CONTENEDOR MAIN */
+.contenedorMain{
+    margin: 0;
+    padding-left: 3%;
+}
+.subtitulo{
+    color: #c8e049;
+    font-weight: 700;
+}
+.contenedorMain p {
+    color:#abadb2;
+  }
+
+.contenedorBoth {
+    display: flex;
+    margin: 0;
+  }
+
+  .contenedorPricing , .contenedorAbout{
+    padding: 10px;
+    flex: 1;
+    margin: 0;
+    padding-left: 3%;
+}
+
+/*CONTENEDOR pricing */
+.contenedorPricing {
+    background-color: #2bb3b1;
+}
+
+.tituloPricing, .price, .explicacion{
+    color: #edffff;
+}
+
+.price{
+    font-size: 3em;
+    margin: 0;
+}
+.priceFrecuency{
+    color: #74dedf;
+    display: inline-flex; /* Corregido: establece la propiedad display a inline */
+}
+
+.price, .priceFrecuency {
+    display: inline-block;/* Opcional: Alinea verticalmente si es necesario */
+    vertical-align: middle;
+  }
+.explicacion{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+
+}
+
+/*CONTENEDOR about */
+.contenedorAbout {
+    background-color: #4abebd;
+    color:#94e1e4;
+    padding-bottom: 5%;
+
+}
+.contenedorAbout p{
+    margin:0px;
+}
+
+.aboutUs{
+    color:#edffff
+}
+
+.compra {
+    background-color: #bfdf32;
+    color: #f7ffb4;
+    padding: 10px; /* Ajusta el espaciado interno según tus necesidades */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 5px auto;
+    width: 70%; /* Ajusta el ancho del botón según tus necesidades */
+}
+
+.compra:hover {
+    background-color: #8ab42e; /* Cambiamos el color de fondo al pasar el mouse */
+}
